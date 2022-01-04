@@ -1,0 +1,81 @@
+.button-primary {
+    border: 2px solid rgb(123, 181, 124);
+    color: rgb(110, 108, 108);
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Hind', sans-serif;
+    padding: 7px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    word-break: break-all;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.button-primary:hover {
+    background-color: rgb(123, 181, 124);
+    color: white;
+}
+
+.button-secondary {
+    border: 2px solid rgb(123, 181, 124);
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Hind', sans-serif;
+    padding: 7px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    word-break: break-all;
+    background-color: rgb(123, 181, 124);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-secondary:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.button-secondary .arrow-svg,
+.button-primary .arrow-svg {
+    margin-left: 12px;
+    margin-top: -2px;
+}
+
+
+.furniture-button {
+    border: 2px solid rgb(123, 181, 124);
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    width: 255px;
+    height: 55px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    word-break: break-all;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    background-color: rgb(123, 181, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.furniture-button .arrow-svg {
+    margin-left: 12px;
+    margin-top: -2px;
+}
+
+.furniture-button:hover {
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
